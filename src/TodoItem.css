@@ -1,0 +1,19 @@
+.TodoItem{
+  padding: .8em;
+  display: flex;
+  align-items: center;
+}
+.TodoItem>input{
+    width: 1.3em;
+    height: 1.3em;
+}
+.TodoItem>.title{
+   flex-grow: 1;
+   padding: 0 .5em;
+ }
+.TodoItem>.delet{
+    line-height: 1em;
+    display: none;
+    color: #333333;
+    cursor: pointer;
+}

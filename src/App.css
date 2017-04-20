@@ -1,24 +1,31 @@
 .App {
-  text-align: center;
+  color: #333;
+  border-radius: 4px;
+  background: white;
+  margin: 2em;
+  min-height: 20em;
+  min-width: 32em;
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.15);
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App > .todoList> li:nth-child(odd){
+  background: #eee;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App > .todoList> li:nth-child(even){
+  background: transparent;
 }
-
-.App-intro {
-  font-size: large;
+.App>.head{
+  padding: 1em;
+  background: linear-gradient(45deg, rgba(63,76,107,1) 0%,rgba(244,218,144,1) 100%);
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App>.head h1{
+  font-family: YouYuan;
+}
+.App>.todoList{
+  margin: 1em;
+}
+.App> .todoList>li:hover .delet{
+  display: block;
+}
+.App > .todoList> li:hover{
+  background-color: rgba(135,121,99,0.3);
 }
