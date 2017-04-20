@@ -2,7 +2,7 @@
   "name": "react-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/liucol/react-project/build",
+  "homepage": "https://liucol.github.io/react-project/build",
   "dependencies": {
     "normalize.css": "^6.0.0",
     "react": "^15.5.4",
